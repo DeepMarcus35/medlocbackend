@@ -18,7 +18,7 @@ exports.getStore = async (req, res, next) => {
         });
     } catch (err) {
         console.log(err);
-        res.status(500).josn({ error: 'Server error' });
+        res.status(500).json({ error: 'Server error' });
     }
 };
 
